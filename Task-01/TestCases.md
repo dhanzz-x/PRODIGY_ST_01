@@ -433,3 +433,161 @@ Calculator application is open.
 The calculator should display the correct result. If the application supports scientific notation, the result may be displayed in scientific notation (for example, 1.00E+24).
 
 **Priority:** Medium
+
+---
+
+## Module: Division
+
+### TC_017
+
+**Test Case ID:** TC_017
+
+**Test Description:**
+Verify division of two positive numbers.
+
+**Preconditions:**
+Calculator application is open.
+
+**Test Steps:**
+1. Enter 20
+2. Click ÷
+3. Enter 5
+4. Click =
+
+**Test Data:**
+20 ÷ 5
+
+**Expected Result:**
+4 should be displayed.
+
+**Priority:** High
+
+---
+
+### TC_018
+
+**Test Case ID:** TC_018
+
+**Test Description:**
+Verify division by one.
+
+**Preconditions:**
+Calculator application is open.
+
+**Test Steps:**
+1. Enter 25
+2. Click ÷
+3. Enter 1
+4. Click =
+
+**Test Data:**
+25 ÷ 1
+
+**Expected Result:**
+25 should be displayed.
+
+**Priority:** Medium
+
+---
+
+### TC_019
+
+**Test Case ID:** TC_019
+
+**Test Description:**
+Verify division by zero.
+
+**Preconditions:**
+Calculator application is open.
+
+**Test Steps:**
+1. Enter 25
+2. Click ÷
+3. Enter 0
+4. Click =
+
+**Test Data:**
+25 ÷ 0
+
+**Expected Result:**
+The calculator displays **Infinity**.
+
+**Priority:** High
+
+---
+
+### TC_020
+
+**Test Case ID:** TC_020
+
+**Test Description:**
+Verify zero divided by zero.
+
+**Preconditions:**
+Calculator application is open.
+
+**Test Steps:**
+1. Enter 0
+2. Click ÷
+3. Enter 0
+4. Click =
+
+**Test Data:**
+0 ÷ 0
+
+**Expected Result:**
+The calculator displays **NaN**.
+
+**Priority:** High
+
+---
+
+### TC_021
+
+**Test Case ID:** TC_021
+
+**Test Description:**
+Verify division of decimal numbers.
+
+**Preconditions:**
+Calculator application is open.
+
+**Test Steps:**
+1. Enter 10.5
+2. Click ÷
+3. Enter 2
+4. Click =
+
+**Test Data:**
+10.5 ÷ 2
+
+**Expected Result:**
+5.25 should be displayed.
+
+**Priority:** High
+
+---
+
+### TC_022
+
+**Test Case ID:** TC_022
+
+**Test Description:**
+Verify decimal precision.
+
+**Preconditions:**
+Calculator application is open.
+
+**Test Steps:**
+1. Enter 1
+2. Click ÷
+3. Enter 3
+4. Click =
+
+**Test Data:**
+1 ÷ 3
+
+**Expected Result:**
+The calculator displays the result with its supported decimal precision (approximately 16 decimal places, based on observed behavior).
+
+**Priority:** Medium
