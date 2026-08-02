@@ -10,27 +10,34 @@ https://dunizb.github.io/sCalc/
 
 ## Features Observed
 
-- Basic arithmetic operations (Addition, Subtraction, Multiplication, Division)
-- Decimal number calculations
-- Clear (CE) button to reset the calculator
-- Equal (=) button to display the result
-- Number input using calculator buttons
+- Performs basic arithmetic operations (Addition, Subtraction, Multiplication, Division)
+- Supports decimal number calculations
+- Displays results instantly after calculation
+- Includes a Backspace button to delete the last entered digit
+- Includes a History feature to view previous calculations
+- Includes an AC (All Clear) button to reset the calculator
 
 ## Buttons Available
 
-- Numeric buttons (0–9)
+- Numbers (0–9)
 - Addition (+)
 - Subtraction (-)
 - Multiplication (×)
 - Division (÷)
 - Decimal (.)
 - Equals (=)
-- Clear (CE)
+- All Clear (AC)
+- Backspace
+- History
 
 ## Observations
 
-- The calculator has a simple and user-friendly interface.
-- All buttons are clearly visible and easy to click.
-- Results are displayed at the top of the calculator.
-- The calculator performs basic arithmetic operations.
-- The application loads quickly in the browser.
+- The calculator has a clean and user-friendly interface.
+- The default display value is **0**.
+- Pressing **=** without entering any values keeps the display at **0**.
+- Dividing a number by **0** displays **Infinity**.
+- The calculator does not allow multiple decimal points in the same number (e.g., 1.2.3).
+- Keyboard input is not supported; only on-screen buttons can be used.
+- Parentheses **( )** are not available for complex expressions.
+- The History button stores previous calculations.
+- The Backspace button removes the last entered character.
