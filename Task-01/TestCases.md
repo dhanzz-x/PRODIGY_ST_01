@@ -591,3 +591,153 @@ Calculator application is open.
 The calculator displays the result with its supported decimal precision (approximately 16 decimal places, based on observed behavior).
 
 **Priority:** Medium
+
+---
+
+## Module: Invalid Inputs
+
+### TC_023
+
+**Test Case ID:** TC_023
+
+**Test Description:**
+Verify behavior when the equals (=) button is pressed without entering any values.
+
+**Preconditions:**
+Calculator application is open.
+
+**Test Steps:**
+1. Open the calculator.
+2. Press the = button.
+
+**Test Data:**
+No input
+
+**Expected Result:**
+The display should remain at the default value (0).
+
+**Priority:** Medium
+
+---
+
+### TC_024
+
+**Test Case ID:** TC_024
+
+**Test Description:**
+Verify behavior when multiple decimal points are entered.
+
+**Preconditions:**
+Calculator application is open.
+
+**Test Steps:**
+1. Enter 1
+2. Press .
+3. Press 2
+4. Press . again
+5. Press 3
+
+**Test Data:**
+1.2.3
+
+**Expected Result:**
+The calculator should prevent entering multiple decimal points in the same number.
+
+**Priority:** High
+
+---
+
+### TC_025
+
+**Test Case ID:** TC_025
+
+**Test Description:**
+Verify behavior when the + button is pressed repeatedly without entering numbers.
+
+**Preconditions:**
+Calculator application is open.
+
+**Test Steps:**
+1. Press + several times.
+
+**Test Data:**
+++++
+
+**Expected Result:**
+The display should remain unchanged (0), and no error should occur.
+
+**Priority:** Medium
+
+---
+
+### TC_026
+
+**Test Case ID:** TC_026
+
+**Test Description:**
+Verify behavior when leading zeros are entered.
+
+**Preconditions:**
+Calculator application is open.
+
+**Test Steps:**
+1. Enter 0005
+2. Press +
+3. Enter 05
+4. Press =
+
+**Test Data:**
+0005 + 05
+
+**Expected Result:**
+The calculator should correctly interpret the values and display 10.
+
+**Priority:** Medium
+
+---
+
+### TC_027
+
+**Test Case ID:** TC_027
+
+**Test Description:**
+Verify Backspace functionality when the display is 0.
+
+**Preconditions:**
+Calculator application is open.
+
+**Test Steps:**
+1. Open the calculator.
+2. Press Backspace.
+
+**Test Data:**
+0
+
+**Expected Result:**
+The display should remain 0 without any error.
+
+**Priority:** Low
+
+---
+
+### TC_028
+
+**Test Case ID:** TC_028
+
+**Test Description:**
+Verify repeated pressing of the = button after a completed calculation.
+
+**Preconditions:**
+Calculator application is open.
+
+**Test Steps:**
+1. Calculate 5 + 5 = 10.
+2. Press = again.
+
+**Test Data:**
+5 + 5
+
+**Expected Result:**
+The calculator should continue displaying the last result (10), based on the observed behavior.
+
+**Priority:** Medium
