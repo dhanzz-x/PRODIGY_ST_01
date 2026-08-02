@@ -301,3 +301,134 @@ Calculator application is open.
 The calculator should correctly display the result.
 
 **Priority:** Medium
+---
+
+## Module: Multiplication
+
+### TC_012
+
+**Test Case ID:** TC_012
+
+**Test Description:**
+Verify multiplication of two positive numbers.
+
+**Preconditions:**
+Calculator application is open.
+
+**Test Steps:**
+1. Enter 12
+2. Click ×
+3. Enter 5
+4. Click =
+
+**Test Data:**
+12 × 5
+
+**Expected Result:**
+60 should be displayed.
+
+**Priority:** High
+
+---
+
+### TC_013
+
+**Test Case ID:** TC_013
+
+**Test Description:**
+Verify multiplication by zero.
+
+**Preconditions:**
+Calculator application is open.
+
+**Test Steps:**
+1. Enter 25
+2. Click ×
+3. Enter 0
+4. Click =
+
+**Test Data:**
+25 × 0
+
+**Expected Result:**
+0 should be displayed.
+
+**Priority:** High
+
+---
+
+### TC_014
+
+**Test Case ID:** TC_014
+
+**Test Description:**
+Verify multiplication of decimal numbers.
+
+**Preconditions:**
+Calculator application is open.
+
+**Test Steps:**
+1. Enter 2.5
+2. Click ×
+3. Enter 4
+4. Click =
+
+**Test Data:**
+2.5 × 4
+
+**Expected Result:**
+10 should be displayed.
+
+**Priority:** High
+
+---
+
+### TC_015
+
+**Test Case ID:** TC_015
+
+**Test Description:**
+Verify multiplication of negative and positive numbers.
+
+**Preconditions:**
+Calculator application is open.
+
+**Test Steps:**
+1. Enter -5
+2. Click ×
+3. Enter 4
+4. Click =
+
+**Test Data:**
+-5 × 4
+
+**Expected Result:**
+-20 should be displayed.
+
+**Priority:** High
+
+---
+
+### TC_016
+
+**Test Case ID:** TC_016
+
+**Test Description:**
+Verify multiplication of very large numbers.
+
+**Preconditions:**
+Calculator application is open.
+
+**Test Steps:**
+1. Enter 999999999999
+2. Click ×
+3. Enter 999999999999
+4. Click =
+
+**Test Data:**
+999999999999 × 999999999999
+
+**Expected Result:**
+The calculator should display the correct result. If the application supports scientific notation, the result may be displayed in scientific notation (for example, 1.00E+24).
+
+**Priority:** Medium
