@@ -741,3 +741,110 @@ Calculator application is open.
 The calculator should continue displaying the last result (10), based on the observed behavior.
 
 **Priority:** Medium
+
+---
+
+## Module: UI & Functional Testing
+
+### TC_029
+
+**Test Case ID:** TC_029
+
+**Test Description:**
+Verify that the calculator loads successfully.
+
+**Preconditions:**
+Open the calculator URL.
+
+**Test Steps:**
+1. Launch the calculator in the browser.
+
+**Expected Result:**
+The calculator interface should load successfully with all buttons visible.
+
+**Priority:** High
+
+---
+
+### TC_030
+
+**Test Case ID:** TC_030
+
+**Test Description:**
+Verify that all calculator buttons are visible and clickable.
+
+**Preconditions:**
+Calculator is open.
+
+**Test Steps:**
+1. Check all number buttons (0–9).
+2. Check operation buttons (+, -, ×, ÷).
+3. Check AC, Backspace, History and = buttons.
+
+**Expected Result:**
+All buttons should be visible and respond when clicked.
+
+**Priority:** High
+
+---
+
+### TC_031
+
+**Test Case ID:** TC_031
+
+**Test Description:**
+Verify AC (All Clear) functionality.
+
+**Preconditions:**
+Calculator is open.
+
+**Test Steps:**
+1. Perform a calculation.
+2. Click AC.
+
+**Expected Result:**
+The display should reset to 0.
+
+**Priority:** High
+
+---
+
+### TC_032
+
+**Test Case ID:** TC_032
+
+**Test Description:**
+Verify History functionality.
+
+**Preconditions:**
+Calculator is open.
+
+**Test Steps:**
+1. Perform two calculations.
+2. Open the History panel.
+
+**Expected Result:**
+Previously performed calculations should be displayed in History.
+
+**Priority:** Medium
+
+---
+
+### TC_033
+
+**Test Case ID:** TC_033
+
+**Test Description:**
+Verify Backspace functionality.
+
+**Preconditions:**
+Calculator is open.
+
+**Test Steps:**
+1. Enter 1234.
+2. Press Backspace.
+
+**Expected Result:**
+The last entered digit should be removed, resulting in 123.
+
+**Priority:** Medium
