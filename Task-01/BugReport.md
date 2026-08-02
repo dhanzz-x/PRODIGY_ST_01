@@ -31,3 +31,21 @@ Medium
 
 ## Status
 Open
+
+## Bug ID
+BUG_002
+
+## Title
+Scientific notation may reduce readability for extremely large multiplication results.
+
+## Actual Result
+Displays 1.00E+24
+
+## Expected Result
+Either scientific notation or full numeric value should be displayed consistently based on application requirements.
+
+## Severity
+Low
+
+## Priority
+Low
