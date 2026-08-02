@@ -301,6 +301,7 @@ Calculator application is open.
 The calculator should correctly display the result.
 
 **Priority:** Medium
+
 ---
 
 ## Module: Multiplication
